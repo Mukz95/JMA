@@ -12,18 +12,13 @@ function MainMenu(game){
 
     function preload(){
         //LOAD ASSETS HERE Sprite Sheet, Image and Sound
-        loadImage(game, "bg", "assets/images/background.jpg")
-        loadImage(game, "logo", "assets/images/background3.png")
-        loadImage(game, "pb", "assets/images/play_button.png")
-
-
-
     }
 
 
 
+    //Show how a function works please use alert() for immediate Output
     function actionOnClick () {
-        startScene(game,"Game")
+        //Eventually Call Scene Here
     }
     
 
@@ -34,30 +29,14 @@ function MainMenu(game){
 
         //Create Images
 
-        //this.background = this.game.add.tileSprite(0, 0, this.game.width, this.game.height, 'tiles', 92);
 
-        setBackground(game, "bg")
-        addLogo(game, 95, 0)
+        //Create Background
 
-        addButton(game,95, 400, actionOnClick)
+        //Create Logo
 
-        /*
-        PointerEvenets:
-            button.onInputOver - hovering
-            button.oninputOut - click and release
-            button.onInputUp- just click
-        */
-        
-        
-    
+        //Create Play Button
 
-        //Create Sprite 
+        //Create Instructions Button
 
-        //Create Audio
-
-        //Create Animation
-
-        //Create image Buttons
-        //game.state.start("Game")
     }
 }
