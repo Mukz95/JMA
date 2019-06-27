@@ -11,6 +11,8 @@ var config = {
     //"resolution": window.devicePixelRatio
 };
 
+
+
 var game = new Phaser.Game(config);
 
 game.state.add("MainMenu", MainMenu(game))
