@@ -4,6 +4,8 @@ var config = {
     "width": "100%",
     "height": "100%",
     "renderer": Phaser.CANVAS,
+    "parent":"game_div",
+
     
     
     //"resolution": window.devicePixelRatio
