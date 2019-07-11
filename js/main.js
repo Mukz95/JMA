@@ -2,7 +2,7 @@
 
 var config = {
     "width": 800,
-    "height": 600,
+    "height": 620,
     "renderer": Phaser.AUTO,
     "parent":"game_div",
 
@@ -14,8 +14,6 @@ var config = {
 
 
 var game = new Phaser.Game(config);
-
-
 
 game.state.add("MainMenu", MainMenu(game))
 game.state.add('Game', Game(game));

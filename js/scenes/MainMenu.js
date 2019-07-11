@@ -30,6 +30,7 @@ function MainMenu(game){
   
 
     function create(){
+
         //goFullScreen()
 
         //Create Images
